@@ -42,7 +42,6 @@ KBRANCH:class-devupstream = "v6.6/base"
 
 SRC_URI = "git://git.yoctoproject.org/linux-yocto.git;name=machine;branch=${KBRANCH};protocol=https \
            git://git.yoctoproject.org/yocto-kernel-cache;type=kmeta;name=meta;branch=yocto-6.6;destsuffix=${KMETA};protocol=https \
-           https://gitlab.arm.com/linux-arm/linux-acs/-/raw/master/kernel/src/0001-BSA-ACS-Linux-6.6.patch;patch=1;md5sum=89b6c420ece275846f79c8b6f6f9cb09 \
            file://0001-KSelfTest.patch;patch=1 \
            file://0001-dt-extract-compatibles.patch;patch=1 \
            file://0001-disable-psci-checker.patch;patch=1 \
